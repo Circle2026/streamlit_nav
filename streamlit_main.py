@@ -1,6 +1,16 @@
 import streamlit as st
-pgnv=st.navigation(
-    pages=[st.Page("pages/home.py",title="Home")],
-    position="sidebar"
+
+pages = [
+    st.Page("pages/home.py", title="Home", icon=":material/home:"),
+    st.Page("pages/experience.py", title="Experience", icon=":material/assignment_globe:"),
+    st.Page("pages/skills.py", title="Skills", icon=":material/cognition:"),
+    st.Page("pages/projects.py", title="Projects", icon=":material/pinboard:"),
+]
+
+pg = st.navigation(
+    pages,
+    position="top"
 )
-pgnv.run()
+
+pg.run()
+
