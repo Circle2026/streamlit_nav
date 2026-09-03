@@ -1,0 +1,19 @@
+[project]
+name = "streamlit-nav"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Circle2026", email = "circle992021@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+streamlit-nav = "streamlit_nav:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
