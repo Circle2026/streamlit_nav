@@ -1,65 +1,119 @@
 import streamlit as st
 
-st.title("工作技能",icon=":material/business_center:")
+
+# ==================================================
+# Page Title
+# ==================================================
+
+st.title("Skills")
+
+st.caption(
+    "Technical skills and areas I am currently developing."
+)
+
+
+# ==================================================
+# Data & Business Intelligence
+# ==================================================
+
+st.header("Data & Business Intelligence")
+
+st.markdown(
+    """
+    **SQL Server**
+
+    Database querying, data manipulation and SQL-based analysis.
+
+
+    **Power BI**
+
+    Data visualization, dashboard development and business reporting.
+
+
+    **SSAS**
+
+    Data modeling and analytical solutions.
+
+
+    **SSRS**
+
+    Report development and business reporting.
+    """
+)
+
+
+# ==================================================
+# Programming
+# ==================================================
+
+st.header("Programming")
+
+st.markdown(
+    """
+    **Python**
+
+    Data analysis, data processing and automation.
+    """
+)
+
+
+# ==================================================
+# Currently Learning
+# ==================================================
+
+st.header("Currently Learning")
+
+st.caption(
+    "Technologies and techniques I am currently exploring and developing."
+)
 
 
 st.markdown(
     """
-<style>
-/*左側標題樣式:加深顏色、加大字體突出*/
-.section-title {
-    color: #3495eb;
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-/*右側內文樣式:往下移 調整為較柔和顏色*/
-.right-column {
-margin-left: 24px;
-color: #555555;
-font-size: 20px;
-line-height: 1.5;
-}
-/*內文中的次要說明文字(年份)*/
-.subtext {
-    color: #555555;
-    font-size: 20px;
-}
-</style>
-""",
-unsafe_allow_html=True
+    **Snowflake**
+
+    Learning cloud data warehousing concepts and the Snowflake platform.
+
+
+    **Web Scraping**
+
+    Learning techniques for collecting data from web sources using Python.
+    """
 )
 
-st.markdown('<div class="section-title">專業技能</div>', unsafe_allow_html=True)
-st.markdown(":material/database:**DATABASE**")
-st.markdown("""
-SQL Server
-SQL                  
-View                 
-CTE                  
-Stored Procedure     
-Backup / Restore""")
-        
-st.markdown(":material/code:**PROGRAMMING**")
-st.markdown("""
-Python               
-Pandas                
-CSV / Excel
-""")
 
-st.markdown(":material/bar_chart:**BI**")
-st.markdown("""
-Power BI             
-Power Query          
-Data Model          
-DAX          
-""")
+# ==================================================
+# Additional / Learning
+# ==================================================
 
-st.markdown('<div class="section-title">證照</div>', unsafe_allow_html=True)
+st.header("Additional / Learning")
 
-st.markdown("**Google Analytics 4 certification**")
-st.markdown("** 食品技師**")
-st.markdown("** Haccp A、B**")
-st.markdown("** TOEIC**")
+st.markdown(
+    """
+    **Web Scraping**
+
+    Python-based data collection and web data processing.
+    """
+)
+
+
+# ==================================================
+# Domain Knowledge
+# ==================================================
+
+st.header("Domain Knowledge")
+
+st.markdown(
+    """
+    **Food Safety Management**
+
+    HACCP · ISO 22000 · Food Safety
+
+
+    **Documentation & Process Management**
+
+    Document control · Process management · Quality management
+    """
+)
 
 
