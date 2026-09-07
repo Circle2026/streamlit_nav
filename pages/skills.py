@@ -82,19 +82,7 @@ st.markdown(
 )
 
 
-# ==================================================
-# Additional / Learning
-# ==================================================
 
-st.header("Additional / Learning")
-
-st.markdown(
-    """
-    **Web Scraping**
-
-    Python-based data collection and web data processing.
-    """
-)
 
 
 # ==================================================

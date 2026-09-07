@@ -49,11 +49,11 @@ col3, col4 = st.columns(2)
 with col3:
     st.markdown('<div class="section-title">海外工作經歷</div>', unsafe_allow_html=True) 
     
-    st.markdown("**愛爾蘭海外工作體驗**")
+    st.markdown("**愛爾蘭海外工作經驗**")
     st.markdown('<span class="subtext">2025-2026</span>', unsafe_allow_html=True)
 
 with col4:
-    st.markdown('<div class="right-column">獨自籌備並完成為期8個月的愛爾蘭海外工作與生活歷練。在全外語和不同文化背景下工作，增強了我的跨文化溝通能力和適應能力。</div>', 
+    st.markdown('<div class="right-column">獨立規劃並完成為期 8 個月的愛爾蘭海外工作與生活，在全英語及多元文化環境中工作，培養快速適應新環境、獨立解決問題及跨文化溝通的能力。</div>', 
                 unsafe_allow_html=True)
-    st.markdown('<div class="right-column">在這段期間，我學會了如何快速融入新的工作環境，並與來自世界各地的同事合作完成任務。</div>', 
+    st.markdown('<div class="right-column">與來自不同國家的同事共同工作，學習適應不同的工作方式與溝通模式，提升團隊協作、問題解決與國際工作環境下的應變能力。</div>', 
                 unsafe_allow_html=True)
