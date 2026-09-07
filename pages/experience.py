@@ -39,9 +39,11 @@ with col1:
     st.markdown('<span class="subtext">五星級飯店 2022-2025</span>', unsafe_allow_html=True)
 
 with col2:
-    st.markdown('<div class="right-column">我過去曾任職於食品技師，主要累積食品安全管理、HACCP、ISO 22000、文件管理與流程管理等相關經驗。</div>', 
+    st.markdown('<div class="right-column">我過去曾任職於食品技師，具備食品安全管理、品質管理與餐飲營運的產業專業知識，熟悉 HACCP、ISO 22000、SOP、文件管理及作業流程監控。</div>', 
                 unsafe_allow_html=True)
-    st.markdown('<div class="right-column">在五星級飯店的工作中，我負責監督食品製備過程，確保符合衛生標準，並協助制定和實施食品安全政策。</div>', 
+    st.markdown('<div class="right-column">負責監督食品製備與作業流程，確保現場執行符合衛生與食品安全標準；透過日常流程監控、文件紀錄與異常處理，協助維持作業品質並降低食品安全風險。</div>', 
+                unsafe_allow_html=True)
+    st.markdown('<div class="right-column">此段經歷培養了流程管理、問題辨識、風險分析、標準化及跨部門協作能力，也讓我具備從實際營運流程理解問題、整理資訊並尋找改善方向的經驗，成為轉向資料分析與商業分析領域的產業基礎。</div>', 
                 unsafe_allow_html=True)
 
 st.divider()
