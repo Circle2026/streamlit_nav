@@ -75,7 +75,7 @@ st.markdown(
 st.sidebar.title("Resume")
 
 st.sidebar.write(
-    "Want to know more about my experience?"
+    "Want to know more about me?"
 )
 
 st.sidebar.download_button(
@@ -97,7 +97,7 @@ st.sidebar.title("Contact")
 
 
 st.sidebar.markdown("**Email**")
-st.sidebar.caption("your-email@example.com")
+st.sidebar.caption("yuansinwan@gmail.com")
 
 
 st.sidebar.markdown("**LinkedIn**")
@@ -105,4 +105,4 @@ st.sidebar.caption("linkedin.com/in/your-profile")
 
 
 st.sidebar.markdown("**GitHub**")
-st.sidebar.caption("github.com/Circle2026")
+st.sidebar.caption("https://github.com/Circle2026")
