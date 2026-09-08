@@ -102,7 +102,14 @@ st.sidebar.write(
     "Want to know more about me?"
 )
 st.sidebar.download_button(
-    label="Download Resume PDF",
+    label="中文履歷下載 PDF",
+    data=b"Dummy resume content for testing",
+    file_name="resume.pdf",
+    mime="application/pdf",
+    icon=":material/download:"
+)
+st.sidebar.download_button(
+    label="Download Resume PDF ENDLISH version",
     data=b"Dummy resume content for testing",
     file_name="resume.pdf",
     mime="application/pdf",
