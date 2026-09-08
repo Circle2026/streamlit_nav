@@ -1,5 +1,35 @@
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    .skill-card {
+        min-height: 108px;
+    }
+
+    [data-testid="stVerticalBlockBorderWrapper"] {
+        border-color: #DDD8CC;
+        border-radius: 8px;
+        background-color: #FFFDF8;
+        box-shadow: none;
+    }
+
+    .skill-card-title {
+        color: #1F2933;
+        font-weight: 600;
+    }
+
+    .learning-note {
+        padding: 0.75rem 1rem;
+        border-left: 3px solid #C98B5B;
+        background-color: #F3ECE3;
+        border-radius: 4px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # ==================================================
 # Page Title
