@@ -69,7 +69,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # ==================================================
 # Introduction
 # ==================================================
-st.markdown('<div class="home-introduction">', unsafe_allow_html=True)
+#st.markdown('<div class="home-introduction">', unsafe_allow_html=True)
 st.markdown(
     """
     我過去曾任職於食品產業，累積食品安全管理、
@@ -84,7 +84,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # ==================================================
 # Core Skills
 # ==================================================
-st.markdown('<div class="home-skills">', unsafe_allow_html=True)
+#st.markdown('<div class="home-skills">', unsafe_allow_html=True)
 st.markdown(":small[CORE SKILLS]", text_alignment="center")
 st.markdown(
     """

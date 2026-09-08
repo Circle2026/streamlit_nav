@@ -18,6 +18,6 @@ st.markdown(
 	unsafe_allow_html=True
 )
 st.title("作品集",icon=":material/business_center:")
-st.markdown('<div class="project-card">', unsafe_allow_html=True)
+#st.markdown('<div class="project-card">', unsafe_allow_html=True)
 st.write("Projects page")
 st.markdown('</div>', unsafe_allow_html=True)
