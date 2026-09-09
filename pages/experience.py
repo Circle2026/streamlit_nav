@@ -62,6 +62,10 @@ st.markdown(
     padding-left: 1rem;
     border-left: 2px solid #DDD8CC;
 }
+.right-column strong {
+    color: #111111;
+    font-weight: 800;
+}
 /*內文中的次要說明文字(年份)*/
 .subtext {
     color: #66736D;
@@ -97,7 +101,7 @@ with col3:
     st.markdown('<span class="subtext">2025-2026</span>', unsafe_allow_html=True)
 
 with col4:
-    st.markdown('<div class="right-column">獨立規劃並完成為期 8 個月的愛爾蘭海外工作與生活，在全英語及多元文化環境中工作，培養快速適應新環境、 <strong>獨立解決問題<strong> 及 <strong>跨文化溝通<strong> 的能力。</div>', 
+    st.markdown('<div class="right-column">獨立規劃並完成為期 8 個月的愛爾蘭海外工作與生活，在全英語及多元文化環境中工作，培養快速適應新環境、 <strong>獨立解決問題</strong> 及 <strong>跨文化溝通</strong> 的能力。</div>', 
                 unsafe_allow_html=True)
-    st.markdown('<div class="right-column">與來自不同國家的同事共同工作，學習適應不同的工作方式與溝通模式，提升團隊協作、問題解決與 <strong>國際工作環境下的應變能力<strong> 。</div>', 
+    st.markdown('<div class="right-column">與來自不同國家的同事共同工作，學習適應不同的工作方式與溝通模式，提升團隊協作、問題解決與 <strong>國際工作環境下的應變能力</strong> 。</div>', 
                 unsafe_allow_html=True)
