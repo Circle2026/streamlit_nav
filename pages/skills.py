@@ -154,7 +154,7 @@ st.header("證照與語言能力")
 
 certification_skills = [
     ("Google Analytics Certification", "Google Analytics 4"),
-    ("TOEIC", "Score XXX"),
+    ("TOEIC", "Score 765"),
     ("食品安全相關證照", "HACCP A/B"),
     ("食品技師", "食品技師"),
 ]
