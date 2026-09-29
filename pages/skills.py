@@ -135,7 +135,8 @@ st.caption("持續拓展雲端資料平台與資料取得相關能力。")
 learning_skills = [
     ("Snowflake", "學習雲端資料倉儲架構與 Snowflake 平台應用。"),
     ("Web Scraping", "使用 Python 進行網路資料擷取、清理與整理。"),
-    ("SSIS", "ETL、資料整合與資料轉換。")
+    ("SSIS", "ETL、資料整合與資料轉換。"),
+    ("Big Query", "進行雲端資料分析與處理。")
 ]
 
 learning_columns = st.columns(2)
