@@ -88,8 +88,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 st.markdown(":small[CORE SKILLS]", text_alignment="center")
 st.markdown(
     """
-    **SQL**  ·  **Python**  ·  **Power BI**
-    
+    **SQL**  ·  **Python**  ·  **Power BI**  ·
     **Power Query**  ·  **Github**  ·  **Big Query**
     """,
     text_alignment="center"
