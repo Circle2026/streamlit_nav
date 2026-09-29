@@ -185,6 +185,12 @@ pages = [
         title="Projects",
         icon=":material/bar_chart:"
     ),
+
+    st.Page(
+        "pages/contoso_project.py",
+        title="Contoso Project",
+        icon=":material/analytics:"
+    ),
 ]
 
 
