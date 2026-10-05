@@ -4,7 +4,7 @@ st.title("作品集", icon=":material/business_center:")
 st.markdown("精選資料分析與商業智慧專案。")
 
 with st.container(border=True):
-	st.subheader("Contoso Promotion Analysis")
+	st.subheader("消費行為與促銷策略分析/Contoso Promotion Analysis")
 	st.markdown(
 		"分析折扣促銷對企業淨利與顧客消費行為之影響，使用 Power BI 建立互動式商業分析儀表板。"
 	)
