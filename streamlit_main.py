@@ -188,7 +188,7 @@ pages = [
 
     st.Page(
         "pages/contoso_project.py",
-        title="Contoso Project",
+        title="消費行為與促銷策略分析",
         icon=":material/analytics:"
     ),
 ]

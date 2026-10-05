@@ -70,7 +70,7 @@ def natural_sort_key(path: Path) -> tuple[str | int, ...]:
 	)
 
 
-st.title("消費行為與促銷策略分析/Contoso Promotion Analysis", icon=":material/analytics:")
+st.title("消費行為與促銷策略分析\nContoso Promotion Analysis", icon=":material/analytics:")
 st.markdown("Power BI 商業分析儀表板｜促銷策略、企業淨利與顧客消費行為")
 
 st.divider()
