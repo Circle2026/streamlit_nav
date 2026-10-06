@@ -101,20 +101,25 @@ st.sidebar.title("Resume")
 st.sidebar.write(
     "Want to know more about me?"
 )
-st.sidebar.download_button(
-    label="中文履歷下載 PDF",
-    data=b"Dummy resume content for testing",
-    file_name="resume.pdf",
-    mime="application/pdf",
-    icon=":material/download:"
-)
-st.sidebar.download_button(
-    label="Download Resume PDF ENDLISH version",
-    data=b"Dummy resume content for testing",
-    file_name="resume.pdf",
-    mime="application/pdf",
-    icon=":material/download:"
-)
+# 中文履歷
+with open("download/resume_yuansin_mandarin.pdf", "rb") as file:
+    st.sidebar.download_button(
+        label="中文履歷下載 PDF",
+        data=file.read(),
+        file_name="萬芫妡-求職履歷表.pdf",
+        mime="application/pdf",
+        icon=":material/download:"
+    )
+
+# 英文履歷
+with open("download/resume_yuansin_english.pdf", "rb") as file:
+    st.sidebar.download_button(
+        label="Download Resume PDF English Version",
+        data=file.read(),
+        file_name="Resume_Yuansin_Wan.pdf",
+        mime="application/pdf",
+        icon=":material/download:"
+    )
 # ==================================================
 # Sidebar — Contact
 # ==================================================
