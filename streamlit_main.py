@@ -191,6 +191,12 @@ pages = [
         title="消費行為與促銷策略分析",
         icon=":material/analytics:"
     ),
+
+    st.Page(
+            "pages/saas_project.py",
+            title="客戶流失情形與客服滿意度分析",
+            icon=":material/analytics:"
+        ),
 ]
 
 

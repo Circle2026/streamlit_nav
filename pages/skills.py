@@ -50,7 +50,7 @@ st.header("資料與商業智慧")
 
 data_skills = [
     ("SQL Server", "資料庫查詢、資料處理與 SQL 資料分析。"),
-    ("Power BI", "資料視覺化、互動式 Dashboard 與商業報表開發。"),
+    ("Power BI/Looker Studio", "資料視覺化、互動式 Dashboard 與商業報表開發。"),
     ("SSAS", "資料模型建立、語意模型與分析解決方案。"),
     ("SSRS", "報表開發、資料呈現與商業報表製作。"),
 ]
