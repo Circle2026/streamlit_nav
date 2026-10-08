@@ -71,13 +71,13 @@ def natural_sort_key(path: Path) -> tuple[str | int, ...]:
 
 
 st.title("客戶流失情形與客服滿意度分析\nSAAS Customer Churn Analysis", icon=":material/analytics:")
-st.markdown("Looker Studio 商業分析儀表板｜客戶流失、不同國家/產業別/訂閱產品類型以及顧客滿意度")
+st.markdown("Looker Studio 商業分析儀表板｜客戶流失、不同國家/產業別/訂閱產品類型以及顧客滿意度\n該作品集尚未完成，持續更新中...")
 
 st.divider()
 st.header("專案背景")
 st.markdown(
-	"本專案聚焦折扣促銷與企業營運表現之間的關係。透過整理銷售、折扣、淨利與顧客消費相關資訊，"
-	"建立互動式 Power BI 儀表板，讓使用者能從整體指標逐步探索不同面向，並以資料支持促銷策略評估。"
+	"本專案聚焦客戶流失情形與原因。。。。"
+	"建立互動式 Looker Studio 儀表板，讓使用者能從整體指標逐步探索不同面向，並以資料支持促銷策略評估。"
 )
 
 st.divider()
