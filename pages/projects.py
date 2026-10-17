@@ -20,9 +20,9 @@ with st.container(border=True):
 
 # 專案 2：SAAS Customer Churn Analysis
 with st.container(border=True):
-    st.subheader("客戶流失情形與客服滿意度分析 / SAAS Customer Churn Analysis")
+    st.subheader("SAAS客戶流失與留存分析 / SAAS Customer Churn Analysis")
     st.markdown(
-        "分析客戶流失原因與客服滿意度，使用 Looker Studio 建立互動式商業分析儀表板。"
+        "分析客戶流失原因與客服滿意度、產品使用行為關係，使用 Looker Studio 建立互動式商業分析儀表板。"
     )
 
     if st.button(
