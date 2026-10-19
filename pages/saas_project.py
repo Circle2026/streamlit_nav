@@ -198,10 +198,10 @@ for column, tool_name, detail in zip(
         st.caption(detail)
 
 st.divider()
-st.header("作品集逐頁展示")
+st.header("Dashbord展示")
 st.markdown(
-    "以下依檔名編號自然排序，完整展示 `images/saas` 資料夾中的作品。每頁附上閱讀提示、"
-    "圖表觀察或方法說明，讓沒有先看過原始簡報的讀者也能理解分析脈絡。"
+    "以下自然排序，完整展示作品集，每頁附上閱讀提示、"
+
 )
 
 image_paths = sorted(
