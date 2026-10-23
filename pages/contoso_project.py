@@ -2,7 +2,9 @@ import re
 from pathlib import Path
 
 import streamlit as st
+from ga_tracking import load_ga
 
+load_ga()
 
 IMAGE_DIRECTORY = Path(__file__).resolve().parents[1] / "images" / "contoso"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
