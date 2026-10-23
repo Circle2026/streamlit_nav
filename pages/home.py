@@ -1,4 +1,9 @@
 import streamlit as st
+from analytics import load_ga
+
+load_ga()
+
+
 st.markdown(
     """
     <style>
@@ -80,7 +85,7 @@ st.markdown(
     """,
     text_alignment="center"
 )
-st.markdown("</div>", unsafe_allow_html=True)
+
 # ==================================================
 # Core Skills
 # ==================================================
@@ -93,7 +98,7 @@ st.markdown(
     """,
     text_alignment="center"
 )
-st.markdown("</div>", unsafe_allow_html=True)
+
 # ==================================================
 # Sidebar — Resume
 # ==================================================

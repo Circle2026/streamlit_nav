@@ -1,4 +1,7 @@
 import streamlit as st
+from analytics import load_ga
+
+load_ga()
 
 st.title("作品集", icon=":material/business_center:")
 st.markdown("精選資料分析與商業智慧專案。")
