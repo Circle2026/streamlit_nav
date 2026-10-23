@@ -1,7 +1,5 @@
 import streamlit as st
-from analytics import load_ga
-
-load_ga()
+from ga_tracking import load_ga
 
 st.markdown(
     """
